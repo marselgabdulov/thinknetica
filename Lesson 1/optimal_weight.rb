@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'Как Вас зовут?'
 name = gets.chomp.capitalize!
 puts 'Пожалуйста, укажите ваш рост:'

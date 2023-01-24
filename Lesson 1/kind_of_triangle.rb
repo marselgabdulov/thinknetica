@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def right_triangle?(sides)
   sides = sides.sort
   c = sides[2]
@@ -19,7 +21,3 @@ elsif right_triangle?(sides)
 else
   puts 'Треугольник не является равносторонним, равнобедренным или прямоугльным'
 end
-
-
-
-# puts right_triangle?([17, 8, 15])
