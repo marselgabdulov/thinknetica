@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
 def finale_price(products)
-  result = 0
-  products.each_value { |v| result += v[:calculated_price] }
-  result
+  products.values.sum { |value| value[:calculated_price] }
 end
 
 result = {}
